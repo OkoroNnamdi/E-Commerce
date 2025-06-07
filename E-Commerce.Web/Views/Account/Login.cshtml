@@ -1,0 +1,49 @@
+﻿@model LoginViewModel
+@{
+	ViewData["Title"] = "User Login";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+	<div class="card shadow p-4" style="min-width: 350px;">
+		<h2 class="text-center text-primary mb-4">Login</h2>
+
+		@if (TempData["errorMessage"] != null)
+		{
+			<div class="alert alert-danger">
+				@TempData["errorMessage"]
+			</div>
+		}
+		@if (TempData["successMessage"] != null)
+		{
+			<div class="alert alert-success">
+				@TempData["successMessage"]
+			</div>
+		}
+
+		<form asp-action="Login" asp-controller="Account">
+			<div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+			<div class="mb-3">
+				<label asp-for="userName" class="form-label"></label>
+				<input asp-for="userName" class="form-control" />
+				<span asp-validation-for="userName" class="text-danger"></span>
+			</div>
+
+			<div class="mb-3">
+				<label asp-for="password" class="form-label"></label>
+				<input asp-for="password" class="form-control" type="password" />
+				<span asp-validation-for="password" class="text-danger"></span>
+			</div>
+
+			<div class="d-grid">
+				<button type="submit" class="btn btn-primary">Login</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

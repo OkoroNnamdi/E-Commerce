@@ -1,0 +1,15 @@
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\bin\Debug\net8.0\E-Commerce.DB.deps.json
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\bin\Debug\net8.0\E-Commerce.DB.runtimeconfig.json
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\bin\Debug\net8.0\E-Commerce.DB.dll
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\bin\Debug\net8.0\E-Commerce.DB.pdb
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.csproj.AssemblyReference.cache
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.AssemblyInfoInputs.cache
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.AssemblyInfo.cs
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.csproj.CoreCompileInputs.cache
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.sourcelink.json
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.dll
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\refint\E-Commerce.DB.dll
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.pdb
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\E-Commerce.DB.genruntimeconfig.cache
+C:\Users\SDSDSTAFF\source\repos\E-Commerce\E-Commerce.DB\obj\Debug\net8.0\ref\E-Commerce.DB.dll

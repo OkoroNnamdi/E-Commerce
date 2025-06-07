@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ProductViewModel>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<div class="container py-5">
+	<div class="row justify-content-center">
+		<div class="col-lg-10">
+
+			<h1 class="text-center text-primary mb-4">Products</h1>
+
+			<div class="text-end mb-3">
+				<a asp-action="Add" class="btn btn-success">
+					<i class="bi bi-plus-circle"></i> Add New Product
+				</a>
+			</div>
+
+			<table class="table table-bordered table-hover shadow-sm">
+				<thead class="table-light">
+					<tr>
+						<th>Name</th>
+						<th>Price</th>
+						<th>Image</th>
+						<th class="text-center">Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>@Html.DisplayFor(modelItem => item.Name)</td>
+							<td>$@String.Format("{0:F2}", item.Price)</td>
+							<td>
+								<img src="@item.ImageUrl" alt="Product Image" class="img-thumbnail" style="max-width: 100px;" />
+							</td>
+							<td class="text-center">
+								<a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning me-1">
+									<i class="bi bi-pencil-square"></i> Edit
+								</a>
+								<a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info me-1 text-white">
+									<i class="bi bi-eye"></i> Details
+								</a>
+								<a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">
+									<i class="bi bi-trash"></i> Delete
+								</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+
+		</div>
+	</div>
+</div>
